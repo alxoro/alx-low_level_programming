@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-*katam_amon -  count money rider
+*jack_bauer -  count down 24hrs
 *Return: void.
 */
 void  jack_bauer(void)
