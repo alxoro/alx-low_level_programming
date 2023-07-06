@@ -7,7 +7,8 @@
  * Return: boolean
  */
 int tmp_prime(int n, int i);
-int divisor(int n)
+int divisor(int n, int m)
+int divisor	
 {
 	if (m % n == 0)
 	{
