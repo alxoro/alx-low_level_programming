@@ -1,12 +1,10 @@
 #include <stdlib.h>
 #include <stdio.h>
-
 int find_len(char *str);
 char *create_xarray(int size);
 char *iterate_zeroes(char *str);
 void get_prod(char *prod, char *mult, int digit, int zeroes);
 void add_nums(char *final_prod, char *next_prod, int next_len);
-
 /**
  * find_len - it  Finds the length of a string.
  * @str: The string to be measured.
@@ -22,7 +20,6 @@ int find_len(char *str)
 
 	return (len);
 }
-
 /**
  * create_xarray - it  Creates an array of chars and initializes it with
  *                 the character 'x'. Adds a terminating null byte.
@@ -49,7 +46,6 @@ char *create_xarray(int size)
 
 	return (array);
 }
-
 /**
  * iterate_zeroes - it has to Iterate through a string of numbers containing
  *                  leading zeroes until it hits a non-zero number.
@@ -64,7 +60,6 @@ char *iterate_zeroes(char *str)
 
 	return (str);
 }
-
 /**
  * get_digit - it has to convert a digit character to a corresponding int.
  * @c: The character to be converted.
@@ -85,7 +80,6 @@ int get_digit(char c)
 
 	return (digit);
 }
-
 /**
  * get_prod - it has to multiply a string of numbers by a single digit.
  * @prod: The buffer to store the result.
@@ -134,7 +128,6 @@ void get_prod(char *prod, char *mult, int digit, int zeroes)
 	if (tens)
 		*prod = (tens % 10) + '0';
 }
-
 /**
  * add_nums - it adds the numbers stored in two strings.
  * @final_prod: The buffer storing the running final product.
@@ -176,7 +169,6 @@ void add_nums(char *final_prod, char *next_prod, int next_len)
 	if (tens)
 		*final_prod = (tens % 10) + '0';
 }
-
 /**
  * main - it has to multiply two positive numbers.
  * @argv: it is the number of arguments passed to the program.
