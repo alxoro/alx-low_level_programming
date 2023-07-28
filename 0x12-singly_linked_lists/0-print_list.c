@@ -6,7 +6,7 @@
  *@h: the pointer to the list to be printed
  *Return: these are the number of nodes to be printed
  */
-size_t print_list(const list_t *h);
+size_t print_list(const list_t *h)
 {
 	size_t s = 0;
 
