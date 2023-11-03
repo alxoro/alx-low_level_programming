@@ -40,4 +40,3 @@ void free_hash_list(hash_node_t *head)
 		free(current);
 		current = next;
 	}
-}
